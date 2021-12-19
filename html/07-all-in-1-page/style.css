@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family: Source Code Pro;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 1000px; 
+    float: left;
+}
+
+#pageA{background-color: #000000;}
+#pageB{background-color: #52057B;}
+#pageC{background-color: #6A097D;}
+#pageD{background-color: #BC6FF1;}
+
+nav{
+    width: 100%; 
+    position: fixed;
+    z-index:1; 
+    top: 80px;
+}
+
+ul{
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+    
+}
+
+ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+ul li a{
+    color: #DA0073;
+}
+
+
+
+h1{
+    color: #DA0073;
+    text-align: center;
+    margin-top: 150px;
+}

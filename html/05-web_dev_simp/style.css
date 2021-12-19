@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+}
+
+.btn-1{
+  background-color: green;
+}
+
+.btn-2{
+  background-color: blue;
+}
+
+.btn-3{
+  background-color: purple;
+}
+
+
+.selector-1.seclector-2 {
+
+}
+<h1 class="large-heading">
+  title
+  </h1>
+<h2 class="large blue" ID="big-blue">
+  Title</h2>
+
+#big-blue.large.blue {
+  color: blue;
+  font-size: 200%;
+}
+.ancestor .child {
+  property: value;
+}
+
+
+
+
+
+
+
+EX:
+
+<div>
+<p>Selected</p>
+<p>Selected</p>
+<span>
+<p>Selected</p>
+</span>
+</div>
+
+div p {
+  color: red;
+}
+
+
+
+
+
+
+
+
+<header class="main-heaer">
+ <h1 class="brown">
+  Selected
+</h1>
+</header>
+
+header.main-header h1.brown {
+  color: brown;
+}
+
+
+
+
+
+
+
+.big {
+  font-size: 200%;
+}
+
+.large {
+  font-size: 200%;
+}
+
+.big, .large {
+  font-size: 200%;
+}
+
+
+most imp => id then class then elements.

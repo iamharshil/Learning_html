@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    color: blanchedalmond;
+    height: 150px;
+    font-size: 70px;
+    text-align: center;
+}
+.content-1, .content-2, .content-3, .content-4{
+    display: grid;
+    background-color: black;
+    height: 25px;
+    width: max;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 1px;
+    
+}

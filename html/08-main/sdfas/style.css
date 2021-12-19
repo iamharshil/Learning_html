@@ -1,0 +1,14 @@
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+ul {
+    width: fit-content;
+    margin: auto;
+
+}
+
+ul li {
+    float: left;}
